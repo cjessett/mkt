@@ -12,13 +12,15 @@ a:hover {
 }
 
 /* Custom default button */
-.btn-default,
-.btn-default:hover,
-.btn-default:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritence from `body` */
+.btn {
+  color: #fff;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: transparent;
+  border: .05rem solid #fff;
+}
+.btn:hover {
   background-color: #fff;
-  border: 1px solid #fff;
+  color: #333;
 }
 
 
