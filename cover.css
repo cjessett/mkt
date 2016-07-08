@@ -12,17 +12,26 @@ a:hover {
 }
 
 /* Custom default button */
-.btn {
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+/* Custom default button */
+.btn-outline {
   color: #fff;
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: transparent;
   border: .05rem solid #fff;
 }
-.btn:hover {
+.btn-outline:hover {
   background-color: #fff;
   color: #333;
 }
-
 
 /*
  * Base structure
